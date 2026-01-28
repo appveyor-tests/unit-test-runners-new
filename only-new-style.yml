@@ -11,6 +11,6 @@ build:
 test:
   assemblies:
     only:
-    - XUnitTestProject.dll
+    - XUnit20TestProject.dll
 after_test:
 - ps: .\checkTestsNumber.ps1 -baseUrl "https://ci.appveyor.com" -testsExpected 2
